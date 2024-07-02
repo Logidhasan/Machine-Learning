@@ -9,7 +9,7 @@ import os
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
@@ -61,7 +61,7 @@ Total_insurance_list = Total_insurance_data.values.tolist()       #(converting d
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
@@ -124,7 +124,7 @@ Total_transaction_list = Total_transaction_data.values.tolist()
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
@@ -190,7 +190,7 @@ Total_user_list = Total_user_data.values.tolist()
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
@@ -252,7 +252,7 @@ Dist_insurance_list = Distric_insurance_data.values.tolist()
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
@@ -315,7 +315,7 @@ Distric_Transaction_list = Distric_Transaction_data.values.tolist()
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
@@ -379,7 +379,7 @@ map_user_list = map_user_data.values.tolist()
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
@@ -447,7 +447,7 @@ Top_insurance_list = Top_insurance_data.values.tolist()
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
@@ -514,7 +514,7 @@ Top_Transaction_list = Top_Transaction_data.values.tolist()
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
@@ -576,7 +576,7 @@ top_user_list = top_user_data.values.tolist()
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Password@123",
+  password="XXXXXXXX",
   database="phonepay"
 )
 mycursor = mydb.cursor()
